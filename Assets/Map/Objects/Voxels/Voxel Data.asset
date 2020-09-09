@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 692a81cb327c51c4b871f3d396df6b48, type: 3}
+  m_Name: Voxel Data
+  m_EditorClassIdentifier: 
+  grounds:
+  - {fileID: 2877329685157277576, guid: 34d53b1270cf7114ab629da0a262d410, type: 3}
+  - {fileID: 4197222972662151231, guid: e783877a7e2febc46b11b6b56c70be2e, type: 3}
+  - {fileID: 4197222972662151231, guid: 1bc7036ccf9634742bfef2155b07c04b, type: 3}
+  - {fileID: 2877329685157277576, guid: 074780fbfb4161844a00a2eaa143c0b3, type: 3}
+  - {fileID: 2877329685157277576, guid: f9f74c46ac1a08e439055df382204dc2, type: 3}
+  - {fileID: 2877329685157277576, guid: 10d86dd8a499bbc408933b13bb999ca1, type: 3}
+  - {fileID: 2877329685157277576, guid: eba83570a6e6a8f4dbb6cf80fd16f3ea, type: 3}
+  objects:
+  - {fileID: 5509813581149828626, guid: 4a28a14fe03761e408fc7cf1163f6753, type: 3}
+  - {fileID: 6673518905941605522, guid: 39deba41ade19c94a886b169d761e361, type: 3}
+  - {fileID: 8402807623487187280, guid: f6ccea9e129e37e42ae44d09c27a8520, type: 3}
+  - {fileID: 6673518905941605522, guid: 93daab73385533d46833b13d1a1123a7, type: 3}
+  - {fileID: 7335792924150819924, guid: 39c0299ac1450494eb25a939bc6ee5d0, type: 3}
+  - {fileID: 2877329685157277576, guid: 435afa6587ef060408541b81892c98d8, type: 3}
+  - {fileID: 2877329685157277576, guid: 2f95494dac37a1843911a5557113d834, type: 3}
+  - {fileID: 802192216656304858, guid: 3a51fe0376daf6a409d3f3c61f253cc6, type: 3}
+  - {fileID: 1682323604950462680, guid: 9080cfa0c66b2f64f81792f697a395dc, type: 3}
+  walls:
+  - {fileID: 1681350284517845999, guid: f61c46b577a58e94ab63275ebbe244ec, type: 3}
+  - {fileID: 1681350284517845999, guid: 5ae1fcaa99a6bda49ac45c05fa2f0f4b, type: 3}
+  - {fileID: 1681350284517845999, guid: c66394e937c53994bbb6b1db0e8a3a74, type: 3}
+  - {fileID: 1681350284517845999, guid: 9f8bcafcaef32964b9ce443357319625, type: 3}
+  - {fileID: 1681350284517845999, guid: c722a26c24627ab4fb63c395922d9813, type: 3}
+  waterfall: {fileID: 2877329685157277576, guid: 95bf0c6013ca1294aa9c18900d3a50dd,
+    type: 3}

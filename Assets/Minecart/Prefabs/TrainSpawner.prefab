@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7666082274690324414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7666082274690324384}
+  - component: {fileID: 7666082274690324385}
+  - component: {fileID: 7666082274690324387}
+  m_Layer: 0
+  m_Name: TrainSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7666082274690324384
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7666082274690324414}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7666082274690324385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7666082274690324414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc50b63f4e70234799437c6dbeefbf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackData: {fileID: 11400000, guid: f79e3091298971f4093e6f962f518e64, type: 2}
+  Train: []
+  FirstCart: {fileID: 2308588354908023800, guid: 7c387a3cefadf714191e58dc35af9a2c,
+    type: 3}
+  SecondCart: {fileID: 6308770936019520699, guid: d0aa4f8de12897e4d97d1bf6254915e5,
+    type: 3}
+  ThirdCart: {fileID: 9013012027511032481, guid: 3d084ca3b8bccb44a995a04a6970fb33,
+    type: 3}
+--- !u!114 &7666082274690324387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7666082274690324414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccd0bf26b5daa784dac09f1481b94517, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackData: {fileID: 11400000, guid: f79e3091298971f4093e6f962f518e64, type: 2}
+  placedTracks: []
+  trainDetector: {fileID: 0}

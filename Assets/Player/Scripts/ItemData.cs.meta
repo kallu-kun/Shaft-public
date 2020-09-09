@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 4019a2cfcdf79694e905514a94a0a046
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - woodPickup: {fileID: 357000096327545831, guid: 1a5842716fc029c44a33b052678b789b,
+      type: 3}
+  - rockPickup: {fileID: 357000096327545831, guid: d5096dc2f55b3c847a16b42c7a3f16ab,
+      type: 3}
+  - fuelPickup: {fileID: 357000096327545831, guid: bf68267ac9c028b4ba1c01b70fd7e66b,
+      type: 3}
+  - axe: {fileID: 6483246327856204618, guid: 3e23b6ace081ad548b611fc16e2cebd1, type: 3}
+  - pickaxe: {fileID: 1702867156975747196, guid: 080968aad8289f04780529a24376f37b,
+      type: 3}
+  - track: {fileID: 1682323604950462680, guid: 9080cfa0c66b2f64f81792f697a395dc, type: 3}
+  - trackPickup: {fileID: 8132285716575302623, guid: 98f87324a2b46a342a3747a66c85fa3c,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

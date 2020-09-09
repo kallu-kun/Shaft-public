@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 1149e8b0c5505c74aa2313d7c5942973
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - trackLeft: {fileID: 1357311057655366211, guid: a23849ec7badf0b4fbe8a2474dc1404c,
+      type: 3}
+  - trackRight: {fileID: 1283629928786024418, guid: 270001bdc6f4a354fa48562399075383,
+      type: 3}
+  - trackStraight: {fileID: 1682323604950462680, guid: 9080cfa0c66b2f64f81792f697a395dc,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

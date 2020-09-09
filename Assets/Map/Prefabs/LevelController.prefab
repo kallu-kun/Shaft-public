@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7654378285921479340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7654378285921479331}
+  - component: {fileID: 7654378285921479330}
+  m_Layer: 0
+  m_Name: LevelController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7654378285921479331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7654378285921479340}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 734407513995104976}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7654378285921479330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7654378285921479340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3382b0bd898e3409e51b05fe2eedf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathWall: {fileID: 1345280220576925951, guid: e0fa1e11b7177e44984a514c4f46a71e,
+    type: 3}
+  fogParticles: {fileID: 731686575167340792, guid: 191d728ecf3b84144a791fafb71ad205,
+    type: 3}
+  dustParticles: {fileID: 731686575167340792, guid: aec63b8359c5da647bca3c1c81a392ff,
+    type: 3}
+  voxelData: {fileID: 11400000, guid: 8a8baeb9f5f55754e8cca1db2b5bec39, type: 2}
+  levelData: {fileID: 11400000, guid: 58ecde43745526842b5084609bbaf9f6, type: 2}
+  trackData: {fileID: 11400000, guid: f79e3091298971f4093e6f962f518e64, type: 2}
+  levelLength: 35
+  collapseMap: 0
+  initialCollapseDelay: 40
+  collapseSpeed: 15
+  animateGeneration: 0
+--- !u!1 &7782897921886889851
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 734407513995104976}
+  - component: {fileID: 3655533070934899970}
+  m_Layer: 0
+  m_Name: VoxelPools
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &734407513995104976
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7782897921886889851}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7654378285921479331}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3655533070934899970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7782897921886889851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a936987ce5eb37498e3de856b14e116, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voxelPools: []
